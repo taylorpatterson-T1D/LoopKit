@@ -20,3 +20,26 @@ extension EnvironmentValues {
         set { self[PresentationDismissalKey.self] = newValue }
     }
 }
+
+// MARK: - Therapy Help Destination
+
+public struct TherapyHelpDestination {
+    public let view: AnyView?
+
+    public init(_ view: AnyView? = nil) {
+        self.view = view
+    }
+
+    public static let empty = TherapyHelpDestination()
+}
+
+private struct TherapyHelpDestinationKey: EnvironmentKey {
+    static let defaultValue = TherapyHelpDestination.empty
+}
+
+extension EnvironmentValues {
+    public var therapyHelpDestination: TherapyHelpDestination {
+        get { self[TherapyHelpDestinationKey.self] }
+        set { self[TherapyHelpDestinationKey.self] = newValue }
+    }
+}

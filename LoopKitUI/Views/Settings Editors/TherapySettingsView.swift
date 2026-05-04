@@ -16,6 +16,7 @@ public struct TherapySettingsView: View {
     @Environment(\.chartColorPalette) var chartColorPalette
     @Environment(\.dismissAction) var dismissAction
     @Environment(\.appName) private var appName
+    @Environment(\.therapyHelpDestination) private var therapyHelpDestination
 
     public struct ActionButton {
         public init(localizedString: String, action: @escaping () -> Void) {
@@ -386,12 +387,23 @@ extension TherapySettingsView {
     
     private var supportSection: some View {
         Section {
-            NavigationLink(destination: DemoPlaceHolderView(appName: appName)) {
-                HStack {
-                    Text("Get help with Therapy Settings", comment: "Support button for Therapy Settings")
-                        .foregroundColor(.primary)
-                    Spacer()
-                    Disclosure()
+            if let destination = therapyHelpDestination.view {
+                NavigationLink(destination: destination) {
+                    HStack {
+                        Text("Get help with Therapy Settings", comment: "Support button for Therapy Settings")
+                            .foregroundColor(.primary)
+                        Spacer()
+                        Disclosure()
+                    }
+                }
+            } else {
+                NavigationLink(destination: DemoPlaceHolderView(appName: appName)) {
+                    HStack {
+                        Text("Get help with Therapy Settings", comment: "Support button for Therapy Settings")
+                            .foregroundColor(.primary)
+                        Spacer()
+                        Disclosure()
+                    }
                 }
             }
         }
