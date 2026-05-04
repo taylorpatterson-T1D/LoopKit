@@ -16,7 +16,6 @@ public struct TherapySettingsView: View {
     @Environment(\.chartColorPalette) var chartColorPalette
     @Environment(\.dismissAction) var dismissAction
     @Environment(\.appName) private var appName
-    @Environment(\.therapyHelpDestination) private var therapyHelpDestination
 
     public struct ActionButton {
         public init(localizedString: String, action: @escaping () -> Void) {
@@ -387,7 +386,7 @@ extension TherapySettingsView {
     
     private var supportSection: some View {
         Section {
-            if let destination = therapyHelpDestination.view {
+            if let destination = TherapyHelpRegistry.destination {
                 NavigationLink(destination: destination) {
                     HStack {
                         Text("Get help with Therapy Settings", comment: "Support button for Therapy Settings")

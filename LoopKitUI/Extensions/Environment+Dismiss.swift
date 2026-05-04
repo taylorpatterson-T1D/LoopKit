@@ -21,25 +21,10 @@ extension EnvironmentValues {
     }
 }
 
-// MARK: - Therapy Help Destination
+// MARK: - Therapy Help Registry
 
-public struct TherapyHelpDestination {
-    public let view: AnyView?
-
-    public init(_ view: AnyView? = nil) {
-        self.view = view
-    }
-
-    public static let empty = TherapyHelpDestination()
-}
-
-private struct TherapyHelpDestinationKey: EnvironmentKey {
-    static let defaultValue = TherapyHelpDestination.empty
-}
-
-extension EnvironmentValues {
-    public var therapyHelpDestination: TherapyHelpDestination {
-        get { self[TherapyHelpDestinationKey.self] }
-        set { self[TherapyHelpDestinationKey.self] = newValue }
-    }
+/// Static registry so Loop can inject a "Get help" destination without environment propagation.
+/// Set `TherapyHelpRegistry.destination` once at app startup; TherapySettingsView reads it directly.
+public final class TherapyHelpRegistry {
+    public static var destination: AnyView? = nil
 }
