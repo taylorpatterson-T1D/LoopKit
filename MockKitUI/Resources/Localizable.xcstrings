@@ -131,7 +131,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@ nu a putut comunica cu pompa simulată din %2$@.\n\nFără comunicare, aplicația nu poate continua să trimită comenzi pentru administrarea de insulină sau să afișeze informații exacte și recente despre insulina dumneavoastră activă sau insulina care vi se administrează."
+            "value" : "%1$@ nu a putut comunica cu pompa simulator din %2$@.\n\nFără comunicare, aplicația nu poate continua să trimită comenzi pentru administrarea de insulină sau să afișeze informații exacte și recente despre insulina dumneavoastră activă sau insulina care vi se administrează."
           }
         },
         "ru" : {
@@ -1157,12 +1157,6 @@
             "value" : "Cancel"
           }
         },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "निरस्त"
-          }
-        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1202,7 +1196,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Renunță"
+            "value" : "Anulați"
           }
         },
         "ru" : {
@@ -1379,7 +1373,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Simulator de senzor de glicemie (CGM)"
+            "value" : "Simulator CGM"
           }
         },
         "ru" : {
@@ -1525,7 +1519,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Recuperare comenzi"
+            "value" : "Recuperare comunicații"
           }
         },
         "ru" : {
@@ -1750,7 +1744,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Șterge serviciul"
+            "value" : "Ștergeți serviciul"
           }
         },
         "ru" : {
@@ -1786,7 +1780,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Delete Service"
+            "value" : "删除服务"
           }
         }
       }
@@ -1803,6 +1797,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gerätedetails"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Détails de l'appareil"
           }
         },
         "it" : {
@@ -1858,6 +1858,12 @@
             "value" : "Fertig"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminé"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1880,6 +1886,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gotowe"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gata"
           }
         },
         "ru" : {
@@ -1974,7 +1986,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Eroare în timpul reluării"
+            "value" : "Eroare reluare"
           }
         },
         "ru" : {
@@ -2148,6 +2160,12 @@
             "value" : "Geschätzter Wert"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lecture estimée"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2239,7 +2257,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nu s-a reușit reluarea administrării de insulină"
+            "value" : "Eșec la reluarea administrării de insulină"
           }
         },
         "ru" : {
@@ -2315,7 +2333,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nu s-a reușit suspendarea livrării de insulină"
+            "value" : "Eșec la suspendarea administrării de insulină"
           }
         },
         "ru" : {
@@ -2373,7 +2391,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Obțineți ajutor cu CGM-ul dumneavoastră"
+            "value" : "Obțineți ajutor cu senzorul dumneavoastră CGM"
           }
         },
         "ru" : {
@@ -3086,6 +3104,12 @@
             "value" : "Mock Versionsprüfung %@"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vérification de la version fictive %@"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3171,7 +3195,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nicio\nLivrare"
+            "value" : "Nicio\nAdministrare"
           }
         },
         "ru" : {
@@ -3366,7 +3390,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "好的"
+            "value" : "OK"
           }
         }
       }
@@ -3483,7 +3507,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Simulator de recuperare"
+            "value" : "Recuperați simulator"
           }
         },
         "ru" : {
@@ -3742,6 +3766,12 @@
             "value" : "Simulatoreinstellungen"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paramètres du simulateur"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3880,7 +3910,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Oprește senzor"
+            "value" : "Stop senzor"
           }
         },
         "ru" : {
@@ -4163,6 +4193,12 @@
             "value" : "versionUpdate: %1$@\n\nbundleIdentifier: %2$@\n\ncurrentVersion: %3$@"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "versionUpdate : %1$@\n\nbundleIdentifier : %2$@\n\ncurrentVersion : %3$@"
+          }
+        },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4237,7 +4273,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aplicația dvs. %1$@ nu este actualizată. Aceasta va continua să funcționeze, dar vă recomandăm să o actualizați la cea mai recentă versiune.\n\nAccesați %2$@ Setări > Actualizare software pentru a finaliza."
+            "value" : "Aplicația dumneavoastră %1$@ nu este actualizată. Aceasta va continua să funcționeze, dar vă recomandăm să o actualizați la cea mai recentă versiune.\n\nAccesați %2$@ Setări > Actualizare software pentru a finaliza."
           }
         },
         "ru" : {

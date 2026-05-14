@@ -528,7 +528,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@ va livra bazala și bolusul recomandat numai dacă glucoza este estimată a fi peste această limită pentru următoarele trei ore."
+            "value" : "%1$@ va administra bazala și bolusul recomandat numai dacă glicemia este estimată a fi peste această limită pentru următoarele trei ore."
           }
         },
         "ru" : {
@@ -570,7 +570,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "当预测血糖在未来三小时内都高于此下限时，%1$@ 才会输注基础胰岛素并推荐推注胰岛素。"
+            "value" : "未来三小时的预测血糖均高于此下限时，%1$@ 才会开启基础率并推荐大剂量。"
           }
         }
       }
@@ -1535,7 +1535,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Apidra (insulină glulisine)"
+            "value" : "Apidra (insulină glulizină)"
           }
         },
         "ru" : {
@@ -1582,19 +1582,19 @@
         }
       }
     },
-    "Apidra (insulin glulisine) is a rapid-acting insulin made by Sanofi-aventis " : {
+    "Apidra (insulin glulisine) is a rapid-acting insulin made by Sanofi-aventis" : {
       "comment" : "Description for apidra insulin type",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Apidra (insulin glulisine) is a rapid-acting insulin made by Sanofi-aventis "
+            "value" : "Apidra (insulin glulisine) is a rapid-acting insulin made by Sanofi-aventis"
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Apidra (insulin glulisine) er en hurtigtvirkende insulin fremstillet af Sanofi-aventis "
+            "value" : "Apidra (insulin glulisine) er en hurtigtvirkende insulin fremstillet af Sanofi-aventis"
           }
         },
         "de" : {
@@ -1612,25 +1612,25 @@
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Apidra (insulin glulisine) is a rapid-acting insulin made by Sanofi-aventis "
+            "value" : "Apidra (insulin glulisine) is a rapid-acting insulin made by Sanofi-aventis"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Apidra (insuline glulisine) est une insuline à action rapide fabriquée par Sanofi-Aventis "
+            "value" : "Apidra (insuline glulisine) est une insuline à action rapide fabriquée par Sanofi-Aventis"
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Apidra (insulin glulisine) is a rapid-acting insulin made by Sanofi-aventis "
+            "value" : "Apidra (insulin glulisine) is a rapid-acting insulin made by Sanofi-aventis"
           }
         },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Apidra (insulin glulisine) is a rapid-acting insulin made by Sanofi-aventis "
+            "value" : "Apidra (insulin glulisine) is a rapid-acting insulin made by Sanofi-aventis"
           }
         },
         "it" : {
@@ -1660,19 +1660,19 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Apidra (insulina glulizynowa) to szybko działająca insulina firmy Sanofi-Aventis."
+            "value" : "Apidra (insulina glulizynowa) to szybko działająca insulina firmy Sanofi-Aventis"
           }
         },
         "pt" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Apidra (insulin glulisine) is a rapid-acting insulin made by Sanofi-aventis "
+            "value" : "Apidra (insulin glulisine) is a rapid-acting insulin made by Sanofi-aventis"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Apidra (insulin glulisine) is a rapid-acting insulin made by Sanofi-aventis "
+            "value" : "Apidra (insulin glulisine) is a rapid-acting insulin made by Sanofi-aventis"
           }
         },
         "ro" : {
@@ -1684,19 +1684,19 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Апидра (инсулин глюлизин) - это инсулин быстрого действия, производимый Sanofi-aventis "
+            "value" : "Апидра (инсулин глюлизин) - это инсулин быстрого действия, производимый Sanofi-aventis"
           }
         },
         "sk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Apidra (inzulín glulizín) je rýchlo pôsobiaci inzulín glulizín vyrábaný spoločnosťou Sanofi "
+            "value" : "Apidra (inzulín glulizín) je rýchlo pôsobiaci inzulín glulizín vyrábaný spoločnosťou Sanofi-aventis"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Apidra (insulin glulisine) är ett snabbverkande insulin från Sanofi-aventis "
+            "value" : "Apidra (insulin glulisine) är ett snabbverkande insulin från Sanofi-aventis"
           }
         },
         "tr" : {
@@ -1714,13 +1714,13 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Apidra (insulin glulisine) là loại insulin tác dụng nhanh do Sanofi-Aventis sản xuất "
+            "value" : "Apidra (insulin glulisine) là loại insulin tác dụng nhanh do Sanofi-Aventis sản xuất"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "爱倍达（谷赖胰岛素）是一种由赛诺菲公司生产的速效胰岛素。"
+            "value" : "爱倍达（谷赖胰岛素）是一种由赛诺菲公司生产的速效胰岛素"
           }
         }
       }
@@ -1916,7 +1916,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Basal"
           }
         },
@@ -1954,6 +1954,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Basal"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bazală"
           }
         },
         "ru" : {
@@ -2242,6 +2248,12 @@
             "value" : "Bolus"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bolus"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2430,7 +2442,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "碳水化合物吸收率"
+            "value" : "碳水化合物系数"
           }
         }
       }
@@ -3136,7 +3148,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Comunicații întrerupte în timpul comenzii de livrare a insulinei."
+            "value" : "Comunicații întrerupte în timpul comenzii de administrare a insulinei."
           }
         },
         "ru" : {
@@ -3434,7 +3446,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Interval țintă pentru corecție"
+            "value" : "Interval de corecție"
           }
         },
         "ru" : {
@@ -3875,7 +3887,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Limite de livrare"
+            "value" : "Limite administrare"
           }
         },
         "ru" : {
@@ -4167,7 +4179,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Starea dispozitivului este critică"
+            "value" : "Starea dispozitiv critică"
           }
         },
         "ru" : {
@@ -4453,7 +4465,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Avertisment privind starea dispozitivului"
+            "value" : "Avertisment stare dispozitiv"
           }
         },
         "ru" : {
@@ -4602,7 +4614,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Asigurați-vă că există date despre carbohidrați pentru data specificată"
+            "value" : "Asigurați-vă că există date carbohidrați pentru data specificată"
           }
         },
         "ru" : {
@@ -5633,7 +5645,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pentru insulina cu acțiune rapida, %1$@ presupune ca funcționează activ timp de 6 ore. Poți alege dintre modele diferite pentru vârful acțiunii."
+            "value" : "Pentru insulina cu acțiune rapida, %1$@ presupune ca funcționează activ timp de 6 ore. Puteți alege dintre modele diferite pentru vârful acțiunii."
           }
         },
         "ru" : {
@@ -6789,7 +6801,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Modelul de insulină"
+            "value" : "Model insulină"
           }
         },
         "ru" : {
@@ -6938,7 +6950,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Factor de sensibilitate la insulină"
+            "value" : "Sensibilități la insulină"
           }
         },
         "ru" : {
@@ -7231,7 +7243,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Este sigur să încercați din nou"
+            "value" : "Este sigur să reîncercați"
           }
         },
         "ru" : {
@@ -7660,7 +7672,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Asigură-te că pompa ta se află în raza de comunicare a telefonului."
+            "value" : "Asigurați-vă că pompa dumneavoastră se află în raza de comunicare a telefonului."
           }
         },
         "ru" : {
@@ -8244,7 +8256,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bolusul maxim este cea mai mare cantitate de insulina pe care o poți livra instantaneu pentru a acoperi carbohidrați sau pentru a corecta o glicemie mare."
+            "value" : "Bolusul maxim este cea mai mare cantitate de insulina pe care o puteți administra instantaneu pentru a acoperi carbohidrați sau pentru a corecta o glicemie mare."
           }
         },
         "ru" : {
@@ -10044,7 +10056,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "好的"
+            "value" : "OK"
           }
         }
       }
@@ -10438,7 +10450,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Preprandial"
+            "value" : "Înainte de masă"
           }
         },
         "ru" : {
@@ -11521,7 +11533,7 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Temp Basal"
           }
         },
@@ -11545,7 +11557,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Temp Basal"
           }
         },
@@ -11557,13 +11569,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Temp Basal"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Temp Basal"
           }
         },
@@ -11587,7 +11599,7 @@
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Temp Basal"
           }
         },
@@ -11599,8 +11611,14 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Temp Basal"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bazală temporară"
           }
         },
         "ru" : {
@@ -11743,7 +11761,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reduceți temporar intervalul țintă de glicemie înainte de masă pentru a evita vârfurile postprandiale."
+            "value" : "Reduceți temporar intervalul țintă de glicemie înainte de masă pentru a evita vârfurile de după masă."
           }
         },
         "ru" : {
@@ -12449,6 +12467,12 @@
             "value" : "U"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "U"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12578,6 +12602,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "U/hr"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "U/oră"
           }
         },
         "ru" : {
@@ -12720,7 +12750,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Livrare incertă"
+            "value" : "Administrare incertă"
           }
         },
         "ru" : {
@@ -13936,7 +13966,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "碳水比例表示每单位胰岛素可以覆盖多少克碳水化合物。"
+            "value" : "碳水化合物系数表示每单位胰岛素可以覆盖多少克碳水化合物。"
           }
         }
       }
