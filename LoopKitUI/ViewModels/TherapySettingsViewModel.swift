@@ -16,6 +16,13 @@ public protocol TherapySettingsViewModelDelegate: AnyObject {
     func syncDeliveryLimits(deliveryLimits: DeliveryLimits, completion: @escaping (Result<DeliveryLimits, Error>) -> Void)
     func saveCompletion(therapySettings: TherapySettings)
     func pumpSupportedIncrements() -> PumpSupportedIncrements?
+    func updateCurrentProfileName()
+}
+
+// PowerPack: default so delegates outside Loop (LoopOnboarding's
+// OnboardingUICoordinator) build without the Loop and Learn LoopOnboarding change.
+public extension TherapySettingsViewModelDelegate {
+    func updateCurrentProfileName() {}
 }
 
 public class TherapySettingsViewModel: ObservableObject {
